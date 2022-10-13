@@ -1,10 +1,9 @@
-# 셀프넘버 함수 
+# 셀프넘버 함수 만들기
 
 def d(n) :
     numlist = list(map(int, str(n)))
     num = sum(numlist) + n
     return num
-
 def selfnum() :
     result = [x for x in range(1, 10000)]
     for i in range(1, 10000) :
