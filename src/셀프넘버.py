@@ -1,4 +1,4 @@
-# 셀프넘버 함수
+# 셀프넘버 함수 
 
 def d(n) :
     numlist = list(map(int, str(n)))
